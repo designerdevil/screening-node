@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>{{features.title}}</title>
+	<link rel='stylesheet' href='/stylesheets/styles.css' />
+</head>
+
+<body>
+
+	{{#if form}}
+		<h1>Demo</h1>
+		<div class="grid">
+			{{> generatorform}}
+		</div>
+	{{/if}}
+	{{#if listmodels}}
+		<h1>Available Models</h1>
+		<div class="grid">
+			{{> models}}
+		</div>
+	{{/if}}
+
+	<script src="/scripts/script1.js" type="module"></script>
+</body>
+
+</html>

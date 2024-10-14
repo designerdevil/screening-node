@@ -1,0 +1,68 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+  
+  a {
+    color: #00B7FF;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .item {
+    height: 200px;
+    position: relative;
+  }
+
+  .note {
+    font-size: 11px;
+    font-family: monospace;
+    padding: 5px 0 10px 0;
+    display: inline-block;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+  }
+
+  button {
+    padding: 4px 10px;
+    border: 0;
+    background: #00B7FF;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  .textgenResponse {
+    padding: 20px 0px;
+    margin: 10px 0;
+  }
+  
+  .demo-images {
+    margin-bottom: 20px;
+  }
+
+  select {
+    margin-bottom: 10px;
+  }
+  
+  .models-item {
+    background: #efefef;
+    max-height: 100px;
+    min-height: 80px;
+    height: fit-content;
+    text-align: center;
+    align-content: center;
+  }
+
+  .models-item strong {
+    font-size: 20px;
+    padding-bottom: 5px;
+    display: inline-block;
+  }

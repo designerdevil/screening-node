@@ -1,0 +1,26 @@
+{
+  "name": "screening-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna exec npm install",
+    "build": "lerna run build",
+    "start": "lerna run start --stream",
+    "start:single": "lerna run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "author": "Gaurav Mall",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^8.1.8",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {}
+}
